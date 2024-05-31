@@ -1,0 +1,42 @@
+.location {
+    width: 95%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    background-color: #083036;
+    margin: 1em auto;
+    padding: 1em 1.3em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.1em 0.1em 5px 0.1em #062226;
+  
+    .location__name {
+        text-align: center;
+        color: rgb(38, 218, 38);
+        font-size: 2.2em;
+        margin-bottom: 0.4em;
+    }
+  
+    .location__list {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 0 auto;
+        gap: 3em;
+  
+      .location__item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4em;
+  
+        .location__label {
+          color: #aaa;
+        }
+  
+        .location__value {
+          color: white;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  

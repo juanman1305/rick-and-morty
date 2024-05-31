@@ -1,0 +1,15 @@
+.app {
+  background-color: #073128;
+  color: aliceblue;
+
+  .app__error {
+      text-align: center;
+  }
+}
+
+.container-residents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
